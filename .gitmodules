@@ -1,0 +1,6 @@
+[submodule "kicadlibs"]
+	path = kicadlibs
+	url = https://github.com/christof1977/kicadlibs.git
+[submodule "RPi_Zero_pHat_Template"]
+	path = RPi_Zero_pHat_Template
+	url = https://github.com/mikelawrence/RPi_Zero_pHat_Template.git
