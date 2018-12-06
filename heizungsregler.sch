@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:heizungsregler-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -220,5 +221,29 @@ ENC_SCK
 Wire Wire Line
 	4300 3650 5100 3650
 Wire Wire Line
-	5050 3750 4300 3750
+	4300 3750 5100 3750
+$Sheet
+S 6850 3800 550  550 
+U 5C09DCA6
+F0 "M-Bus" 50
+F1 "mbus.sch" 50
+F2 "TXD" I L 6850 4000 50 
+F3 "RXD" O L 6850 4150 50 
+$EndSheet
+Wire Wire Line
+	4300 2150 4950 2150
+Text Label 4950 2150 2    50   ~ 0
+TXD
+Text Label 4950 2250 2    50   ~ 0
+RXD
+Wire Wire Line
+	4950 2250 4300 2250
+Text Label 6600 4000 0    50   ~ 0
+TXD
+Text Label 6600 4150 0    50   ~ 0
+RXD
+Wire Wire Line
+	6600 4000 6850 4000
+Wire Wire Line
+	6600 4150 6850 4150
 $EndSCHEMATC
