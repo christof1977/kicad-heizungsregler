@@ -1245,4 +1245,5 @@ Wire Wire Line
 Connection ~ 9200 2700
 Wire Wire Line
 	9200 2700 9200 2550
+NoConn ~ 10950 -500
 $EndSCHEMATC

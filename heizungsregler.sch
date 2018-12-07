@@ -166,15 +166,15 @@ Wire Wire Line
 Wire Wire Line
 	4400 3150 4750 3150
 Text Label 1750 3150 0    50   ~ 0
-EN_#CS
+ENC_#CS
 Wire Wire Line
 	1750 3150 2500 3150
 Text Label 1150 6700 0    50   ~ 0
 ENC_#CS
 Text Label 1150 6900 0    50   ~ 0
-EN_#INT
+ENC_#INT
 Text Label 1750 3350 0    50   ~ 0
-EN_#INT
+ENC_#INT
 Wire Wire Line
 	1750 3350 2500 3350
 Text Label 1150 6400 0    50   ~ 0
