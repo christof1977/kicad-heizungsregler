@@ -243,14 +243,10 @@ Wire Wire Line
 	4250 2150 4250 2100
 Wire Wire Line
 	4250 2100 4100 2100
-Text Label 4800 2000 0    50   ~ 0
-LED_A
 Text Label 4800 2700 0    50   ~ 0
+LED_A
+Text Label 4800 2000 0    50   ~ 0
 LED_B
-Wire Wire Line
-	4800 2700 4650 2700
-Wire Wire Line
-	4800 2000 4650 2000
 NoConn ~ 3300 2500
 NoConn ~ 3300 2600
 $Comp
@@ -1246,4 +1242,8 @@ Connection ~ 9200 2700
 Wire Wire Line
 	9200 2700 9200 2550
 NoConn ~ 10950 -500
+Wire Wire Line
+	4800 2000 4650 2000
+Wire Wire Line
+	4650 2700 4800 2700
 $EndSCHEMATC
