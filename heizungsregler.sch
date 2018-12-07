@@ -362,24 +362,6 @@ F 3 "" H 9700 3300 50  0001 C CNN
 	1    9700 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9700 3300 9700 3750
-$Comp
-L Device:R R102
-U 1 1 5C10BD5A
-P 9400 3750
-F 0 "R102" V 9193 3750 50  0000 C CNN
-F 1 "R" V 9284 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 3750 50  0001 C CNN
-F 3 "~" H 9400 3750 50  0001 C CNN
-	1    9400 3750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9700 3750 9550 3750
-Connection ~ 9700 3750
-Wire Wire Line
-	9700 3750 9700 4000
 Text Label 2100 1850 0    50   ~ 0
 DQ
 Wire Wire Line
@@ -497,13 +479,6 @@ Wire Wire Line
 	8600 3900 8950 3900
 Connection ~ 8950 3900
 Wire Wire Line
-	8950 3650 8950 3750
-Connection ~ 8950 3750
-Wire Wire Line
-	8950 3750 8950 3900
-Wire Wire Line
-	8950 3750 9250 3750
-Wire Wire Line
 	8950 3900 9800 3900
 $Comp
 L Sensor_Temperature:DS18B20 U102
@@ -577,4 +552,52 @@ Wire Wire Line
 	8750 5300 8950 5300
 Wire Wire Line
 	8950 5300 8950 3900
+$Comp
+L Mechanical:MountingHole H105
+U 1 1 5C0FF546
+P 650 7400
+F 0 "H105" H 750 7446 50  0000 L CNN
+F 1 "MountingHole" H 750 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 650 7400 50  0001 C CNN
+F 3 "~" H 650 7400 50  0001 C CNN
+	1    650  7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H106
+U 1 1 5C0FF54D
+P 1400 7400
+F 0 "H106" H 1500 7446 50  0000 L CNN
+F 1 "MountingHole" H 1500 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1400 7400 50  0001 C CNN
+F 3 "~" H 1400 7400 50  0001 C CNN
+	1    1400 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H107
+U 1 1 5C0FF554
+P 2150 7400
+F 0 "H107" H 2250 7446 50  0000 L CNN
+F 1 "MountingHole" H 2250 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 2150 7400 50  0001 C CNN
+F 3 "~" H 2150 7400 50  0001 C CNN
+	1    2150 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H108
+U 1 1 5C0FF55B
+P 2900 7400
+F 0 "H108" H 3000 7446 50  0000 L CNN
+F 1 "MountingHole" H 3000 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 2900 7400 50  0001 C CNN
+F 3 "~" H 2900 7400 50  0001 C CNN
+	1    2900 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 3300 9700 4000
+Wire Wire Line
+	8950 3650 8950 3900
 $EndSCHEMATC
