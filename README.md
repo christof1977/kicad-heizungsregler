@@ -6,9 +6,11 @@ basierend auf Raspberry Pi Zero
 - Step-Down-Converter auf 5V
 - MBus-Interface zum Auslesen von Wärmemengenzähler
 - Anschluss für OneWire-Temperatursensor
-- Anschluß für 8-Kanal-Relais-Karte
-- Steckplat für 0,96" Oled-Display
-
+- Anschluss für 8-Kanal-Relais-Karte
+- Steckplatz für 0,96" Oled-Display
+- I2C-Anschluss
+- DS18B20
+- Zwei Port für weitere OneWires
 
 <img src="meta/pcb.png" style="width:100%">
 
