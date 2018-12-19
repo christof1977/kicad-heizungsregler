@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -1247,10 +1247,10 @@ F 3 "~" H 4850 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0115
 U 1 1 5C0FB918
 P 10700 3600
-F 0 "#PWR?" H 10700 3450 50  0001 C CNN
+F 0 "#PWR0115" H 10700 3450 50  0001 C CNN
 F 1 "+5V" H 10715 3773 50  0000 C CNN
 F 2 "" H 10700 3600 50  0001 C CNN
 F 3 "" H 10700 3600 50  0001 C CNN
@@ -1260,4 +1260,6 @@ $EndComp
 Wire Wire Line
 	10700 3600 10700 3800
 Connection ~ 10700 3800
+Text Notes 7200 1500 0    50   ~ 0
+Todo:\n- Alternativer Spannungseingang\n- Relaiskarte prüfen -> Treiber/Shifter?
 $EndSCHEMATC
