@@ -1,0 +1,8 @@
+Plot-Datei „/Users/sld/Documents/privat/kicad-heizungsregler/gerber/heizungsregler-F.Cu.gtl“ erstellt.
+Plot-Datei „/Users/sld/Documents/privat/kicad-heizungsregler/gerber/heizungsregler-B.Cu.gbl“ erstellt.
+Plot-Datei „/Users/sld/Documents/privat/kicad-heizungsregler/gerber/heizungsregler-F.SilkS.gto“ erstellt.
+Plot-Datei „/Users/sld/Documents/privat/kicad-heizungsregler/gerber/heizungsregler-B.SilkS.gbo“ erstellt.
+Plot-Datei „/Users/sld/Documents/privat/kicad-heizungsregler/gerber/heizungsregler-F.Mask.gts“ erstellt.
+Plot-Datei „/Users/sld/Documents/privat/kicad-heizungsregler/gerber/heizungsregler-B.Mask.gbs“ erstellt.
+Plot-Datei „/Users/sld/Documents/privat/kicad-heizungsregler/gerber/heizungsregler-Edge.Cuts.gm1“ erstellt.
+Erstelle Gerber Job-Datei „/Users/sld/Documents/privat/kicad-heizungsregler/gerber/heizungsregler-job.gbrjob“

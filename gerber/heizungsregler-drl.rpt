@@ -1,0 +1,33 @@
+Drill report for /Users/sld/Documents/privat/kicad-heizungsregler/heizungsregler.kicad_pcb
+Created on Montag, 24. Dezember 2018 um 15:41:19
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'heizungsregler-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,30mm  0,012"  (359 holes)
+    T2  0,60mm  0,024"  (65 holes)
+    T3  0,71mm  0,028"  (40 holes)
+    T4  0,75mm  0,030"  (3 holes)
+    T5  0,90mm  0,035"  (13 holes)
+    T6  1,00mm  0,039"  (26 holes)
+    T7  1,40mm  0,055"  (2 holes)
+    T8  1,60mm  0,063"  (2 holes)
+    T9  3,20mm  0,126"  (4 holes)
+
+    Total plated holes count 514
+
+
+Drill file 'heizungsregler-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2,20mm  0,087"  (4 holes)
+    T2  2,70mm  0,106"  (4 holes)
+    T3  3,25mm  0,128"  (2 holes)
+
+    Total unplated holes count 10
